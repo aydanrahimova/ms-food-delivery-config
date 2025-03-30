@@ -1,0 +1,27 @@
+server:
+  port: 8082
+
+  #spring:
+  #  config:
+  #    import:
+  #      - "application_prod.yml"
+  #      - "application_qa.yml"
+  #
+  #  profiles:
+  #    active:
+  #      - "prod"
+
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+    database: mysql
+
+
+
+  datasource:
+    username: postgres
+    url: jdbc:mysql://localhost:3307/linkedin_clone_db
+    password: 2810
