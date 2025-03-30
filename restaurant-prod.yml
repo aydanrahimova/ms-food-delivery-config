@@ -20,7 +20,7 @@ server:
     database: postgresql
 
 variable:
-  value: 6
+  value: 7
 
   datasource:
     username: postgres
