@@ -17,11 +17,11 @@ server:
       hibernate:
         format_sql: true
         dialect: org.hibernate.dialect.MySQLDialect
-    database: mysql
+    database: postgresql
 
 
 
   datasource:
     username: postgres
-    url: jdbc:mysql://localhost:3307/linkedin_clone_db
+    url: jdbc:postgresql://localhost:5432/linkedin_clone_db
     password: "{cipher}68fb19b5b33d1a1a56002fad2c21a67ddc1b3ac3c45b8924efd309f0fd4b41cc"
