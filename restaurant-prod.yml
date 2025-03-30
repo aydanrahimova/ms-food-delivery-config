@@ -19,7 +19,8 @@ server:
         dialect: org.hibernate.dialect.MySQLDialect
     database: postgresql
 
-
+variable:
+  value: 6
 
   datasource:
     username: postgres

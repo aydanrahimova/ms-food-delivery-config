@@ -22,6 +22,8 @@ server:
         dialect: org.hibernate.dialect.PostgreSQLDialect
     database: postgresql
 
+variable:
+  value: 5
 
 
   datasource:
