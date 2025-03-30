@@ -24,4 +24,4 @@ server:
   datasource:
     username: postgres
     url: jdbc:mysql://localhost:3307/linkedin_clone_db
-    password: 2810
+    password: {cipher}8DgQ4JD/CrFatI8syr8A1A==
